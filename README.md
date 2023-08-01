@@ -22,26 +22,26 @@ Before starting with ampify you need to setup a aws account, after follow these 
 
 1. Create a new Vue 3 project:
    
-   vue create amplifyUI-vue
+   **vue create amplifyUI-vue**
 
 2. Install Amplify CLI:
    
-   npm install -g @aws-amplify/cli
+   **npm install -g @aws-amplify/cli**
 
 3. Initialize Amplify in your Vue project:
    
-   amplify init
+   **amplify init**
 
 4. Add authentication to your Amplify project:
    
-   amplify add auth
+   **amplify add auth**
 
 5. Push the Amplify project changes:
    
-   amplify push
+   **amplify push**
 
 6. Integrate Amplify in your Vue app:
    
-   npm install aws-amplify @aws-amplify/ui-vue
+   **npm install aws-amplify @aws-amplify/ui-vue**
 
 7. Last, add changes in your main file and add authenticator in you component [https://ui.docs.amplify.aws/vue/connected-components/authenticator](https://ui.docs.amplify.aws/vue/connected-components/authenticator)
