@@ -21,21 +21,27 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 Before starting with ampify you need to setup a aws account, after follow these steps:
 
 1. Create a new Vue 3 project:
+   
    vue create amplifyUI-vue
 
 2. Install Amplify CLI:
+   
    npm install -g @aws-amplify/cli
 
 3. Initialize Amplify in your Vue project:
+   
    amplify init
 
 4. Add authentication to your Amplify project:
+   
    amplify add auth
 
 5. Push the Amplify project changes:
+   
    amplify push
 
 6. Integrate Amplify in your Vue app:
+   
    npm install aws-amplify @aws-amplify/ui-vue
 
 7. Last, add changes in your main file and add authenticator in you component [https://ui.docs.amplify.aws/vue/connected-components/authenticator](https://ui.docs.amplify.aws/vue/connected-components/authenticator)
